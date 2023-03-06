@@ -30,3 +30,7 @@ SELECT *,
 FROM faculty
 
 
+-- Joining tables
+SELECT compsci.firstname, compsci.lastname, compsci.age, city.city_id, city.city_mayor
+FROM compsci
+INNER JOIN city ON compsci.cityId = city.city_id;
