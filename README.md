@@ -14,5 +14,5 @@ How to run the files in Postgres:
 8. Select open file, then locate the 'basicComandsSql' file
 9. Run the queries.
 
-For your reference: https://www.postgresqltutorial.com/
-Postgres Download: https://www.postgresql.org/download/
+# For your reference: https://www.postgresqltutorial.com/
+# Postgres Download: https://www.postgresql.org/download/
