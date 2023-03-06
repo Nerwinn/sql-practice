@@ -1,4 +1,4 @@
-# sql-practice
+# sql-practice (School basic Data)
 
 ## Practice SQL queries
 
