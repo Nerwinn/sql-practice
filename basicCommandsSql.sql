@@ -36,10 +36,10 @@ FROM compsci
 INNER JOIN city ON compsci.cityId = city.city_id;
 
 -- Case query
-SELECT cps.firstname, cps.lastname, cps.age, cps.cityId,
+SELECT firstname, lastname, age, cityId,
 	CASE
 		WHEN (age < 20) THEN 'Young People'
 		WHEN (age >= 20 AND age < 25) THEN 'Young Adult'
 		ELSE 'Adult'
 	END adult_hood
-FROM compsci cps;
+FROM compsci;
