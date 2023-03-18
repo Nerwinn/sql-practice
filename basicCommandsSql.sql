@@ -58,3 +58,10 @@ SELECT firstname, lastname, age, cityId,
 		ELSE 'Adult'
 	END adult_hood
 FROM compsci;
+
+-- Basic Sub Query
+SELECT *
+FROM faculty
+WHERE salary > (
+	SELECT AVG(salary)
+	FROM faculty);
