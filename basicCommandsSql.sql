@@ -42,6 +42,14 @@ SELECT compsci.firstname, compsci.lastname, compsci.age, city.city_id, city.city
 FROM compsci
 INNER JOIN city ON compsci.cityId = city.city_id;
 
+SELECT cs.firstname, cs.lastname, cs.age, ct.city_id, ct.city_mayor
+FROM compsci cs
+RIGHT JOIN city ct ON cs.cityId = ct.city_id;
+
+SELECT cs.firstname, cs.lastname, cs.age, ct.city_id, ct.city_mayor
+FROM compsci cs
+LEFT JOIN city ct ON cs.cityId = ct.city_id;
+
 -- Case query
 SELECT firstname, lastname, age, cityId,
 	CASE
